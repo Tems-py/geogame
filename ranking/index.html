@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking Geo</title>
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/ranking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9371069611734102"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="bar">
+                <div id="bar_with_flex">
+                    <div class="bar_elem" onclick="window.location.href='/'"><img src="../imgs/house-solid.svg" alt="Strona główna"></div>
+                    <div class="bar_elem" onclick="window.location.href='/ranking'"><img src="../imgs/ranking-star-solid.svg" alt="Ranking"></div>
+                    <div class="bar_elem" onclick="window.location.href='/search'"><img src="../imgs/magnifying-glass-solid.svg" alt="Wyszukiwarka"></div>
+                    <div class="bar_elem" onclick="window.location.href='/create_map'"><img src="../imgs/map-solid.svg" alt="Mapa"></div>
+                    <div class="bar_elem" onclick="window.location.href='/user'"><img src="../imgs/user-solid.svg" alt="Twój profil"></div>
+                </div>
+            <div class="bar_elem" id="hide_bar"><img src="../imgs/arrow-left-solid.svg"></div>
+        </div>
+        <div id="show_bar">
+            <img src="../imgs/arrow-right-solid.svg">
+        </div>
+        <div id="content">
+            <h1>Ranking</h1>
+            <table id="ranking">
+                <tr class="highlight">
+                    <td>Lp.</td>
+                    <td>Użytkownik</td>
+                    <td>Punkty</td>
+                    <td>Czas (sekundy)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/ranking.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

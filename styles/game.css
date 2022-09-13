@@ -1,0 +1,68 @@
+button {
+    background-color: #f4a261;
+    padding: 1em;
+    border-radius: 36px;
+    font-size: 80%;
+    box-shadow: 5px 10px rgba(128, 128, 128, 0.37);
+    font-weight: 600;
+}
+
+button:hover {
+    box-shadow: 5px 10px rgba(100, 100, 100, 0.7);
+    font-size: 85%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#game {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+#resize {
+    z-index: 21;
+    height: 30px;
+    width: 30px;
+    right: 400px;
+    bottom: 300px;
+    position: absolute;
+    display: block;
+    z-index: 20;
+}
+
+#map {
+    right: 20px;
+    bottom: 87px;
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 300px;
+    z-index: 20;
+    transition: 0.1s;
+}
+
+#pano {
+    flex-grow: 1;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

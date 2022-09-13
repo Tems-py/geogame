@@ -1,0 +1,99 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://media.discordapp.net/attachments/733283797457698870/1004833368346734592/backiee-81564.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    padding: 20px;
+    width: width;
+    height: calc(100vh - 40px);
+    background-color: #a5a3a3ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#bar {
+    width: 60px;
+    height: 100vh;
+    border-right: 6px solid #e76f51;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#bar_with_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60px;
+    height: 100vh;
+}
+
+.bar_elem > img {
+    max-width: 40px;
+}
+
+.bar_elem {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#content {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding-left: 20px;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: #f4a261;
+    padding: 1rem;
+}
+
+#discord {
+    max-width: 100px;   
+}
+
+.icon {
+    max-width: 100px;
+}
+
+#show_bar {
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    bottom: 46px;
+    opacity: 0.3;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e76f51; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
